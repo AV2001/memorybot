@@ -1,0 +1,91 @@
+/* The styles in this page apply to all the 
+web pages. These are the common styles. */
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Resetting the browser's font size from the default 16px to 10px 
+  for easy calculations down the road when using rem units. */
+  font-size: 66.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right, #032f40, #274f5f);
+  color: #f7f7f7;
+  font-size: 1.6rem;
+}
+
+/* UTILITY CLASSES (Reusable classes) */
+.center {
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 2.4rem;
+}
+
+/* Centering all displayed content on the page. */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER - Container for the navigation */
+header {
+  padding-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4.8rem;
+}
+
+.logo {
+  height: 125px;
+  width: auto;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 2.8rem;
+}
+
+/* DEFAULT style for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAVIGATION */
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.8rem 1.6rem;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+/* NAVIGATION EFFECTS */
+
+.nav-link:hover,
+.nav-link:active,
+#current {
+  background-color: #f7f7f7;
+  color: #032f40;
+}
+
+/* FOOTER */
+footer {
+  padding-bottom: 0.8rem;
+}

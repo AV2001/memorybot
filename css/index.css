@@ -1,0 +1,119 @@
+/* Styles for the Index page */
+
+/* WELCOME SECTION */
+#welcome-section {
+  margin-bottom: 4.8rem;
+}
+
+h1 {
+  font-size: 5.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.tagline {
+  opacity: 0.8;
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+  font-weight: normal;
+}
+
+/* HERO SECTION */
+#hero-section {
+  margin-bottom: 9.6rem;
+}
+
+/* CSS Grid to arrange the cards in 2D format */
+.hero-img-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+/* Applying styles to all the divs in the container */
+.hero-img-container > div {
+  transition: all 0.3s;
+  background-color: #0b7285;
+  border-radius: 12px;
+  display: grid;
+  overflow: hidden;
+}
+
+/* Adding styles to each individual image */
+
+.hero-img-container > div > img {
+  height: 100%;
+  width: 100%;
+  justify-self: center;
+  transition: all 0.3s;
+}
+
+/* Animation to increase the size of the image */
+.hero-img-container > div img:hover {
+  transform: scale(1.2);
+}
+
+/* GAME INSTRUCTIONS SECTION */
+#game-instructions {
+  margin-bottom: 9.6rem;
+}
+
+#game-instructions .section-header > h2 {
+  font-size: 4.4rem;
+  margin-bottom: 1.6rem;
+}
+
+/* Using Flexbox for easy 1D layout */
+.instruction {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Reverses the direction to create that Z-shape-like layout. */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.step-heading {
+  font-size: 12.8rem;
+  opacity: 0.4;
+}
+
+.step-content {
+  width: 50%;
+}
+
+/* CALL TO ACTION SECTION */
+#cta {
+  padding: 48px 0;
+  color: #032f40;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  margin-bottom: 9.6rem;
+}
+
+#cta h2 {
+  text-align: center;
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+}
+
+/* CALL-TO-ACTION BUTTON */
+.cta-btn:link,
+.cta-btn:visited {
+  background-color: #032f40;
+  color: #f7f7f7;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+  background-color: #274f5f;
+}

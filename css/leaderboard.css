@@ -1,0 +1,24 @@
+/* Styles for the Leaderboard page */
+
+h1 {
+  font-size: 5.2rem;
+  margin-bottom: 4.8rem;
+}
+
+/* Styles for the Table */
+table {
+  background: rgb(11, 114, 133, 0.5);
+  color: #fff;
+  font-size: 2.4rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 9.6rem;
+  border-radius: 18px;
+}
+
+/* Creating space in the cells to separate the content from the borders. */
+th,
+td {
+  padding: 1.6rem 2.4rem;
+}

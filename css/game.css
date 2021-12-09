@@ -1,0 +1,106 @@
+/* Styles for the Game page */
+
+h1 {
+  font-size: 5.2rem;
+  margin-bottom: 4.8rem;
+}
+
+/* Whether the game window has cards or not, the minimum height will be 75 of 
+the viewport height. Max height will be height 100% because the window grows as
+the number of cards increses. */
+#game-window {
+  background-color: #0d2b3073;
+  min-height: 75vh;
+  max-height: 100%;
+  width: 100%;
+  border-radius: 18px;
+  padding: 2.4rem 4.8rem;
+  margin-bottom: 9.6rem;
+  position: relative;
+}
+
+#game-window header {
+  margin-bottom: 4.8rem;
+}
+
+#level-and-player, #score-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+}
+
+/* Applying the same style to the level box, player box, lives box, and score box */
+#level-box,
+#player-box,
+#lives-box,
+#score-box,
+#previous-high-score-box {
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.6rem;
+  border-radius: 15px;
+}
+
+#level-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#player-box, #previous-high-score-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+#score-box {
+  align-self: center;
+}
+
+.user-icon {
+  height: 4.2rem;
+  width: 4.2rem;
+}
+
+#cards-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  justify-content: center;
+}
+
+.robot-card {
+  background-color: #0b7285;
+  border-radius: 12px;
+}
+
+.hide {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+#game-over {
+  background-color: #fff;
+  font-size: 4.8rem;
+  padding: 2.4rem 4.8rem;
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff0000;
+}
+
+.hidden {
+  display: none !important;
+}

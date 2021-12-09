@@ -1,0 +1,150 @@
+/* Styles for the My Account page */
+h1 {
+  font-size: 5.2rem;
+  margin-bottom: 4.8rem;
+}
+
+/* FORM STYLING */
+#form {
+  color: #f7f7f7;
+  background-color: rgb(11, 114, 133, 0.5);
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 18px;
+  padding-top: 1.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.form-menus {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  margin-bottom: 1.6rem;
+}
+
+hr {
+  border: 1px solid rgba(247, 247, 247, 0.3);
+}
+
+/* STYLING THE BUTTONS */
+.form-menu-btn,
+.submission {
+  color: #f7f7f7;
+  background-color: transparent;
+  border: none;
+  font-size: 2.4rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Hover effects and highlighting button that is clicked */
+.form-menu-btn:hover,
+.active {
+  background-color: #032f40;
+}
+
+#sign-up-form,
+#log-in-form {
+  position: relative;
+}
+
+/* Adding padding to both the forms. */
+#sign-up-form,
+#log-in-form {
+  padding: 5rem 10rem;
+}
+
+label {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Targeting the input fields */
+input {
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  border: transparent;
+  border-radius: 12px;
+  margin-bottom: 2.4rem;
+}
+
+#dob {
+  width: 95%;
+}
+
+#gender-container {
+  font-size: 1.8rem;
+  border: transparent;
+  border-radius: 12px;
+  margin-bottom: 2.4rem;
+  width: 95%;
+}
+
+#gender-container p {
+  margin-bottom: 0.8rem;
+}
+
+#gender-container div {
+  background-color: #fff;
+  color: #000;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+  border-radius: 12px;
+}
+
+#gender-container div > div {
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+
+#gender-container div > div:last-child {
+  margin-right: 0;
+}
+
+#gender-container label {
+  display: inline;
+}
+
+/* Centering the submit button */
+.submission {
+  display: block;
+  margin: 1.2rem auto 0 auto;
+}
+
+.submission:hover {
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* Hiding stuff */
+.hidden {
+  display: none;
+}
+
+/* General styling for the prompts */
+.prompt {
+  background-color: #f7f7f7;
+  padding: 1.6rem;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 18px;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Success Prompt */
+.success {
+  color: #00ff00;
+}
+
+/* Error Prompt */
+.error {
+  color: #ff0000;
+}
