@@ -1,2 +1,8 @@
 # Memorybot
-A memory game where the same robots have to be matched with each other to proceed to the next level.
+A memory game where robots of the same type have to be matched with each other.
+
+## Technologies Used
+- HTML (embedded into PHP)
+- CSS
+- JavaScript
+- PHP
