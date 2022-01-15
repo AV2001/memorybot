@@ -22,3 +22,5 @@ Live demo available [here](https://memorybot-av01.herokuapp.com/).
 ## Usage
 
 ## Contact
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="anirudh-vadlamani" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ae.linkedin.com/in/anirudh-vadlamani?trk=profile-badge">Anirudh Vadlamani</a></div>
+              
