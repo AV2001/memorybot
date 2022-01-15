@@ -4,7 +4,7 @@ Live demo available [here](https://memorybot-av01.herokuapp.com/).
 
 ## Table of Contents
 - General Information
-- [Technolgies Used](./technologies-used)
+- [Technolgies Used](../technologies-used)
 - Screenshots
 - Usage
 - Contact
