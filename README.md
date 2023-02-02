@@ -1,6 +1,6 @@
 # Memorybot
 A memory game where robots of the same type have to be matched with each other.\
-Live demo available [here](https://memorybot-av01.herokuapp.com/).
+Live demo available [here](https://memorybot.herokuapp.com/).
 
 ## General Information
 
