@@ -1,6 +1,6 @@
-# Memorybot
+# Memorybot ⭐
 A memory game where robots of the same type have to be matched with each other.\
-Live demo available [here](https://memorybot.herokuapp.com/).
+Live demo of the application is available [here](https://memorybot.herokuapp.com/).
 
 ## Technologies Used
 - HTML (embedded into PHP)
