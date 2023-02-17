@@ -9,6 +9,7 @@ Live demo of the application is available [here](https://memorybot.herokuapp.com
 - CSS
 - JavaScript
 - PHP
+- Heroku
 
 ## What Have I Learned? 🤔
 
